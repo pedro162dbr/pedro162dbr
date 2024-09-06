@@ -1,1 +1,101 @@
+/* Estilos gerais da página */
 
+.categoria{
+padding-left: 20px;
+padding-right: 20px; 
+}
+
+.categoria-videos h2 {
+color: rgb(42, 122, 228);
+}
+
+
+.categoria-videos img:hover{
+opacity: 1.0;
+border: 1px solid green;
+height: 200px;	
+display: flex;
+overflow-x: auto;
+gap: 10px;
+padding-left: 20px;
+ padding-right: 20px;
+ margin-top: 50px; 
+
+}
+
+
+.chamada-texto {
+margin-right: 5%;
+}
+
+.chamada {
+background: rgb(184,156,213);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.categoria h2 {
+color: rgb(42, 122, 228);
+}
+
+img {
+height: 200px;
+}
+
+body {
+    color: white;
+	background: black;
+	margin: 0; /* Remove margens padrão do corpo */
+	font-family: "Chakra Petch" , sans-serif; /* Fonte padrão sem serifa */
+    margin-bottom: 100px;
+    padding: 20px; /* Adiciona espaçamento interno */
+
+}
+
+header {
+    /*text-align: center; /* Centraliza o texto do cabeçalho */
+    margin-bottom: 30px; /* Adiciona espaço abaixo do cabeçalho */
+	padding: 20px; /* Adiciona espaçamento interno */
+	 border-bottom: solid 2px rgb(42, 122, 228);
+	 font-size: 32px;
+	 color: rgb(42, 122, 228);
+}
+
+section {
+background: rgb(184,156,213);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+div {
+margin-right: 20px;
+}
+
+header h1 { /* Aplica o estilo ao h1 dentro do header */
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+h1 {
+    color: white; /* Cor de texto escura */
+}
+
+main {
+    max-width: 800px; /* Limita a largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal */
+}
+
+/* Estilos específicos para o iframe do vídeo */
+iframe {
+    display: block; /* Garante que o iframe ocupe toda a largura disponível */
+    margin: 20px auto; /* Centraliza o iframe e adiciona margens */
+    max-width: 100%; /* Limita a largura máxima do iframe para não ultrapassar o contêiner */
+}
